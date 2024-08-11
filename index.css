@@ -9,7 +9,7 @@ box-sizing: border-box;
 body{
    font-family: 'Poppins', sans-serif ;
    background-color: rgb(35, 35, 35);
-   max-width: 1280px;
+  max-width: 1280px;
    margin: 0 auto;
 }
 .carrossel{
@@ -59,6 +59,9 @@ body{
    width: 100vw;
    height: 100vh;
    object-fit: cover;
+   background-position: center;
+   background-size: cover;
+height: auto;
    display: none;
 }
 .imagem.ativa{
